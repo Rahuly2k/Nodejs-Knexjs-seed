@@ -1,20 +1,30 @@
-HOW TO USE 
-1) run "npm install"
-2) create database in phpmyadmin
-3) open db/kenxfile.js file and set database name
-4) open terminal in "db" folder.
-5) run migration using "knex migrate:latest" then Start node using "node index" command
-6) To create new user
-   open postman, select post method and add user like 
-{
-	"email":"demo@test.com",
-	"password":"123456",
-	"type":"admin"
-}
-and run api http://localhost:3100/api/register
-7) Then try to login using these credential. (http://localhost:3100/api/login). You will get token as response.
-8) Open app/routes/api.js and test some other api.
+<!--
+  Title: Nodejs-Knexjs-seed
+  Description: This seed project is created with nodejs and knexjs Mysql connectivity having some dummy get and post api's. This repository is integratead with JWT Authentication.
+  Author: Rahuly2k Rahul Sonone
+  -->
 
-These are the steps to use this seed project.Hope you like it.
+# Nodejs-Knexjs-seed
 
-GOOD LUCK
+This seed project is created with nodejs and knexjs (Mysql connectivity) having some dummy get and post api's. This repository is integratead with JWT Authentication.
+
+## Getting Started
+
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
+
+### Prerequisites
+
+What things you need to install in local machine and how to install them
+
+```
+* install nodejs in local machine
+* npm i knex --save OR npm install -g knex (for global)
+```
+### Installing
+
+Open "how to use" file and follows all steps for step by step installation. 
+
+## Authors
+
+* **Rahul Sonone** 
+
