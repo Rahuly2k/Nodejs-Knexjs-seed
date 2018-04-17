@@ -1,0 +1,13 @@
+HOW TO USE
+
+run "npm install"
+create database in phpmyadmin
+open db/kenxfile.js file and set database name
+open terminal in "db" folder.
+run migration using "knex migrate:latest" then Start node using "node index" command
+To create new user open postman, select post method and add user like { "email":"demo@test.com", "password":"123456", "type":"admin" } and run api http://localhost:3100/api/register
+Then try to login using these credential. (http://localhost:3100/api/login). You will get token as response.
+Open app/routes/api.js and test some other api.
+These are the steps to use this seed project.Hope you like it.
+
+GOOD LUCK
