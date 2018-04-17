@@ -3,7 +3,7 @@ HOW TO USE
 2) create database in phpmyadmin
 3) open db/kenxfile.js file and set database name
 4) open terminal in "db" folder.
-5) run migration using "knex migrate:latest"
+5) run migration using "knex migrate:latest" then Start node using "node index" command
 6) To create new user
    open postman, select post method and add user like 
 {
